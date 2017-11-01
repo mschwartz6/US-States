@@ -13,6 +13,8 @@
 		6F8920A91FA918CB00424033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8920A81FA918CB00424033 /* Assets.xcassets */; };
 		6F8920AC1FA918CB00424033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8920AA1FA918CB00424033 /* LaunchScreen.storyboard */; };
 		6F8920AF1FA918CB00424033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8920AE1FA918CB00424033 /* main.m */; };
+		6F8920B71FA94FF900424033 /* StateInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8920B61FA94FF900424033 /* StateInfoViewController.m */; };
+		6F8920BA1FA956FD00424033 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8920B91FA956E600424033 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		6F8920AB1FA918CB00424033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8920AD1FA918CB00424033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8920AE1FA918CB00424033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F8920B51FA94FF900424033 /* StateInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateInfoViewController.h; sourceTree = "<group>"; };
+		6F8920B61FA94FF900424033 /* StateInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateInfoViewController.m; sourceTree = "<group>"; };
+		6F8920B91FA956E600424033 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8920BA1FA956FD00424033 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +50,7 @@
 			children = (
 				6F89209E1FA918C900424033 /* US-States */,
 				6F89209D1FA918C900424033 /* Products */,
+				6F8920B81FA956E500424033 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +74,18 @@
 				6F8920AA1FA918CB00424033 /* LaunchScreen.storyboard */,
 				6F8920AD1FA918CB00424033 /* Info.plist */,
 				6F8920AE1FA918CB00424033 /* main.m */,
+				6F8920B51FA94FF900424033 /* StateInfoViewController.h */,
+				6F8920B61FA94FF900424033 /* StateInfoViewController.m */,
 			);
 			path = "US-States";
+			sourceTree = "<group>";
+		};
+		6F8920B81FA956E500424033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F8920B91FA956E600424033 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8920B71FA94FF900424033 /* StateInfoViewController.m in Sources */,
 				6F8920A41FA918CA00424033 /* ViewController.m in Sources */,
 				6F8920AF1FA918CB00424033 /* main.m in Sources */,
 				6F8920A11FA918C900424033 /* AppDelegate.m in Sources */,
